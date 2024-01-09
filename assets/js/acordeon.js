@@ -12,4 +12,4 @@ acordeonTriggers.forEach((trigger) => {
       acordeon.classList.add('open')
     }
   })
-})
+}) 
