@@ -13,9 +13,10 @@
   <link rel="stylesheet" href="./assets/css/header.css">
   <link rel="stylesheet" href="./assets/css/acordeon.css">
   <link rel="stylesheet" href="./assets/css/languages.css">
+  <link rel="stylesheet" href="./assets/css/portfolio.css">
 </head>
 <body>
-  <div class="main">
+  <main class="main">
     <header class="header">
 
       <img src="./assets/img/my-photo.jpg" alt="Foto Henrique Griepp Cerqueira" class="photo">
@@ -24,15 +25,19 @@
       <div class="information">
         <p class="job">Junior Developer</p>
         <p class="location">Rio Grande do Sul - BR</p>
-        <p class="phone">(53) 99999-9999</p>
-        <p class="email">contato@grceh.com</p>
+        <p class="phone">
+          <a href="tel: (53) 99999-9999">(53) 99999-9999</a>
+        </p>
+        <p class="email">
+          <a href="mailto: contato@grceh.com">contato@grceh.com</a>
+        </p>
       </div>
     </header>
     <section class="acordeon open">
       <button class="trigger" type="button">
         <span class="title">Idiomas</span>
       </button>
-  
+
       <div class="content">
         <ul class="languages">
           <li>Português</li>
@@ -42,8 +47,31 @@
         </ul>
       </div>
     </section>
-  </div>
-  <script src="./assets/js/acordeon.js"></script>
+
+    <section class="acordeon open">
+      <button class="trigger" type="button">
+        <span class="title">Projetos</span>
+      </button>
+
+      <div class="content">
+        <ul class="portfolio">
+          <li>
+            <span class="title github"> Criado um app</span>
+            <a href="https://www.google.com" target="_blank">www.google.com</a>
+          </li>
+          <li>
+            <span class="title github"> Criado um app</span>
+            <a href="https://www.google.com" target="_blank">www.google.com</a>
+          </li>
+          <li>
+            <span class="title github"> Criado um app</span>
+            <a href="https://www.google.com" target="_blank">www.google.com</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    </div>
+    <script src="./assets/js/acordeon.js"></script>
 
 
 </body>
