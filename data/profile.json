@@ -8,8 +8,12 @@
   "skills": {
     "hardSkills": [
       {
-        "name": "JavaScript",
-        "logo": "https://raw.githubusercontent.com/henrique-griepp/portifolio/main/data/imgs/js.png"
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/henrique-griepp/portifolio/main/data/imgs/html.png"
+      }, 
+      {
+        "name": "CSS",
+        "logo": "https://raw.githubusercontent.com/henrique-griepp/portifolio/main/data/imgs/css.png"
       }, 
       {
         "name": "Nodejs",
@@ -21,7 +25,7 @@
       },
       {
         "name": "Typescript",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "logo": "https://raw.githubusercontent.com/henrique-griepp/portifolio/main/data/imgs/typescript.png"
       },
       {
         "name": "Git",
